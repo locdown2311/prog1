@@ -13,7 +13,4 @@ int main()
   for(b=0;b<5;b++)
     printf("Valor de [b] = [%d]\n",p[b]);
 
-
-
-
 }
