@@ -6,7 +6,7 @@ int main()
   struct aluno{
     char nome[100];
     int idade;
-  }
+  };
   int n,i;
     printf("Digite a quantidade de alunos : ");
     scanf("%d",&n);
