@@ -7,7 +7,7 @@ int main()
     char nome[100];
     int idade;
   }
-  int n;
+  int n,i;
     printf("Digite a quantidade de alunos : ");
     scanf("%d",&n);
     
