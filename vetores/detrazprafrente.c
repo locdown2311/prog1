@@ -3,10 +3,10 @@
 int main(){
     char st[40],stInv[40];
     int i, j ,tam= 0;
-    printf("Digite a string :");
-    scanf("%s",st);
+    printf("Digite a palavra :");
+    gets(st);
 
-    while( st[tam]!= '\0' && tam<40){
+    while(st[tam]!='\0' && tam<40){
         tam++;
     }
     stInv[tam] ='\0';
