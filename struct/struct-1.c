@@ -15,8 +15,8 @@ int main()
 
   for(i=0;i<n;i++){
     printf("Digite o nome do aluno : \n");
-    scanf(" %s",&aluno[i].nome);
     fflush(stdin);
+    gets(aluno[i].nome);
 
     printf("Digite a idade do aluno : \n");
     scanf(" %d",&aluno[i].idade);
